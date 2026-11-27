@@ -1,0 +1,12 @@
+<!-- أضف هذه الصلاحيات داخل android/app/src/main/AndroidManifest.xml قبل وسم <application> -->
+<uses-permission android:name="android.permission.INTERNET"/>
+<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+
+<!-- أضف هذا الجزء داخل <application> لدعم فتح خرائط جوجل للملاحة المباشرة -->
+<queries>
+    <intent>
+        <action android:name="android.intent.action.VIEW" />
+        <data android:scheme="https" />
+    </intent>
+</queries>

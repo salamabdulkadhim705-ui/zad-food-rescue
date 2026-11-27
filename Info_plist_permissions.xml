@@ -1,0 +1,8 @@
+<!-- أضف هذه المفاتيح داخل ios/Runner/Info.plist لتفعيل GPS والخرائط على الآيفون -->
+<key>NSLocationWhenInUseUsageDescription</key>
+<string>يحتاج تطبيق زاد إلى موقعك الجغرافي لعرض المطاعم والمتبرعين القريبين ورسم مسار الوصول إليهم.</string>
+<key>LSApplicationQueriesSchemes</key>
+<array>
+    <string>https</string>
+    <string>comgooglemaps</string>
+</array>

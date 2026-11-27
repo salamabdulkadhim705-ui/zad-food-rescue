@@ -1,0 +1,40 @@
+name: zad_food_rescue
+description: تطبيق زاد لحفظ النعمة وإنقاذ فائض الطعام - تم التصميم والبرمجة من قبل المهندس سلام الأعرجي
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  google_fonts: ^6.1.0
+  flutter_map: ^6.1.0
+  latlong2: ^0.9.0
+  geolocator: ^11.0.0
+  url_launcher: ^6.2.5
+  qr_flutter: ^4.1.0
+  supabase_flutter: ^2.3.4
+  shared_preferences: ^2.2.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icon/zad_logo.png"
+  min_sdk_android: 21
+  windows:
+    generate: true
+    image_path: "assets/icon/zad_logo.png"
+    icon_size: 48
+
+flutter:
+  uses-material-design: true
